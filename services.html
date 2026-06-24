@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Dental Services | Sharma Advanced Dental & Aesthetic Clinic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🦷</span>
+                <span class="logo-text">Sharma Dental Clinic</span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn-primary btn-appointment">Book Appointment</a>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== SERVICES HERO ========== -->
+    <section class="page-hero" id="services-hero" style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=1600&q=80'); background-size: cover; background-position: center;">
+        <div class="page-hero-overlay" style="background: linear-gradient(135deg, rgba(13, 71, 161, 0.85) 0%, rgba(13, 71, 161, 0.55) 100%);">
+            <div class="container page-hero-content">
+                <span class="hero-badge">Our Services</span>
+                <h1 class="page-hero-title">Our Dental Services</h1>
+                <p class="page-hero-subtitle">Advanced, Painless and Personalized Dental Care</p>
+                <p class="page-hero-text" style="max-width: 640px; margin: 16px auto 0; font-size: 1.1rem; opacity: 0.9; line-height: 1.7;">
+                    We provide modern dental treatments using advanced technology to ensure healthy smiles and long-lasting oral health.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES GRID ========== -->
+    <section class="services-detail">
+        <div class="container">
+            <div class="services-detail-grid">
+
+                <!-- SERVICE 1: Dental Implants -->
+                <div class="service-detail-card">
+                    <div class="service-detail-image">
+                        <img src="implant.png" alt="Dental Implants Treatment" loading="lazy" />
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="service-detail-tag">Permanent Solution</span>
+                        <h2 class="service-detail-title">Dental Implants</h2>
+                        <p class="service-detail-desc">
+                            Permanent replacement solution for missing teeth with natural appearance and long-lasting results. Our advanced implant procedures restore your smile and confidence.
+                        </p>
+                        <div class="service-detail-benefits">
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>✅ Natural look and feel</li>
+                                <li>✅ Permanent tooth replacement</li>
+                                <li>✅ Preserves jawbone health</li>
+                                <li>✅ Restores chewing function</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- SERVICE 2: Root Canal Treatment -->
+                <div class="service-detail-card reverse">
+                    <div class="service-detail-image">
+                        <img src="root-canal.png" alt="Root Canal Treatment" loading="lazy" />
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="service-detail-tag">Painless Procedure</span>
+                        <h2 class="service-detail-title">Root Canal Treatment (RCT)</h2>
+                        <p class="service-detail-desc">
+                            Painless root canal procedures performed using modern techniques to save natural teeth. We ensure your comfort throughout the treatment process.
+                        </p>
+                        <div class="service-detail-benefits">
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>✅ Saves natural teeth</li>
+                                <li>✅ Painless modern technique</li>
+                                <li>✅ Prevents infection spread</li>
+                                <li>✅ Restores normal function</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- SERVICE 3: Teeth Whitening & Smile Designing -->
+                <div class="service-detail-card">
+                    <div class="service-detail-image">
+                        <img src="teeth-whitening.png" alt="Teeth Whitening & Smile Designing" loading="lazy" />
+                    </div>
+                    <div class="service-detail-content">
+                        <span class="service-detail-tag">Cosmetic Dentistry</span>
+                        <h2 class="service-detail-title">Teeth Whitening &amp; Smile Designing</h2>
+                        <p class="service-detail-desc">
+                            Professional cosmetic dentistry solutions for a brighter, healthier and more confident smile. Transform your smile with our advanced aesthetic treatments.
+                        </p>
+                        <div class="service-detail-benefits">
+                            <h4>Benefits:</h4>
+                            <ul>
+                                <li>✅ Brighter, whiter smile</li>
+                                <li>✅ Boosted confidence</li>
+                                <li>✅ Custom smile design</li>
+                                <li>✅ Quick and effective results</li>
+                            </ul>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== WHY CHOOSE US ========== -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-choose-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">Your Trusted Dental Partner</h2>
+                <p class="section-subtitle">
+                    Experience world-class dental care with a personal touch.
+                </p>
+            </div>
+            <div class="why-choose-grid">
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">👨‍⚕️</div>
+                    <h3 class="why-choose-title">12+ Years Experience</h3>
+                    <p class="why-choose-desc">Expert dental care with over a decade of clinical excellence.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">😊</div>
+                    <h3 class="why-choose-title">5000+ Happy Patients</h3>
+                    <p class="why-choose-desc">Thousands of satisfied patients trust us with their smiles.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">🖥️</div>
+                    <h3 class="why-choose-title">Advanced Technology</h3>
+                    <p class="why-choose-desc">State-of-the-art equipment for precise and effective treatments.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">💉</div>
+                    <h3 class="why-choose-title">Painless Treatments</h3>
+                    <p class="why-choose-desc">Modern anesthesia and gentle techniques for comfort.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">🏥</div>
+                    <h3 class="why-choose-title">Modern Clinic Environment</h3>
+                    <p class="why-choose-desc">Clean, comfortable and welcoming dental facility.</p>
+                </div>
+                <div class="why-choose-card">
+                    <div class="why-choose-icon">💰</div>
+                    <h3 class="why-choose-title">Affordable Care</h3>
+                    <p class="why-choose-desc">Quality dental treatments at competitive prices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CALL TO ACTION ========== -->
+    <section class="cta">
+        <div class="container cta-inner">
+            <h2 class="cta-title">Ready for a Healthier Smile?</h2>
+            <p class="cta-text">
+                Book your consultation with Dr. Aarav Sharma today.
+            </p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary btn-lg">
+                    Book Appointment
+                </a>
+                <a href="https://wa.me/919829144567" target="_blank" class="btn btn-whatsapp btn-lg">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor"/>
+                    </svg>
+                    WhatsApp Chat
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer" id="contact">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🦷</span>
+                    <span class="logo-text">Sharma Dental Clinic</span>
+                </a>
+                <p class="footer-tagline">
+                    Advanced dental care with a personal touch.
+                </p>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-heading">Contact</h4>
+                <p class="footer-address">📍 Jaipur, Rajasthan</p>
+                <p class="footer-phone">📞 <a href="tel:+919829144567">+91 98291 44567</a></p>
+                <p class="footer-whatsapp">💬 <a href="https://wa.me/919829144567" target="_blank">WhatsApp</a></p>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="footer-copy">
+                    &copy; 2026 Sharma Advanced Dental &amp; Aesthetic Clinic. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== NAVIGATION JAVASCRIPT ========== -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.getElementById('hamburgerBtn');
+            const nav = document.getElementById('mainNav');
+
+            if (hamburger && nav) {
+                hamburger.addEventListener('click', function() {
+                    hamburger.classList.toggle('open');
+                    nav.classList.toggle('open');
+                });
+
+                const navLinks = nav.querySelectorAll('a');
+                navLinks.forEach(function(link) {
+                    link.addEventListener('click', function() {
+                        hamburger.classList.remove('open');
+                        nav.classList.remove('open');
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</html>
